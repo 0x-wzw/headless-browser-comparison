@@ -1,0 +1,42 @@
+{
+  "name": "headless-browser-comparison",
+  "version": "1.0.0",
+  "description": "Comprehensive comparison of headless browsers for AI agents and OpenClaw integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Run individual example files: node examples/playwright.js\"",
+    "benchmark": "echo \"Benchmark scripts coming soon\"",
+    "benchmark:lightpanda": "node benchmarks/lightpanda.js",
+    "benchmark:playwright": "node benchmarks/playwright.js",
+    "benchmark:puppeteer": "node benchmarks/puppeteer.js",
+    "benchmark:selenium": "node benchmarks/selenium.js"
+  },
+  "keywords": [
+    "headless-browser",
+    "browser-automation",
+    "web-scraping",
+    "ai-agents",
+    "openclaw",
+    "playwright",
+    "puppeteer",
+    "selenium",
+    "lightpanda",
+    "browserbase"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "^1.40.0",
+    "puppeteer": "^21.6.0",
+    "selenium-webdriver": "^4.16.0",
+    "@browserbasehq/sdk": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x-wzw/headless-browser-comparison.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0x-wzw/headless-browser-comparison/issues"
+  },
+  "homepage": "https://github.com/0x-wzw/headless-browser-comparison#readme"
+}
